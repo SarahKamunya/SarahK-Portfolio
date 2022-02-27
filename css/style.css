@@ -27,8 +27,9 @@ nav ul{
 nav .logo{
     font-family: cursive;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     float: left;
+    color: #d97d27;
 }
 
 
@@ -48,13 +49,13 @@ nav ul li a {
 }
 
 nav ul li a.current{
-    background: #c7c9c8 ;
+    background: #d97d27 ;
     border-radius: 6px;
 }
 
 nav ul li a:hover{
 
-    background: #c7c9c8;
+    background: #d97d27;
     border-radius: 6px;
 }
 
@@ -68,5 +69,50 @@ nav ul li a:hover{
         padding: 0 20px ;
         margin: 100px;
         font-family: cursive;
+     
+
+        
 }
 
+.top-content p {
+    font-size: 30px;
+}
+
+.color{
+    color: #d97d27;
+}
+
+.button{
+    font-size: 20px;
+    text-decoration: none;
+    color: #d97d27;
+    border: #d97d27 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+
+
+
+.about div{
+   
+    padding: 10px;
+
+}
+
+ .about {
+
+display: flex;
+ }
+
+
+ .my-img{
+     flex: 1
+ }
+ 
+ .about-content{
+     flex: 2;
+ }
