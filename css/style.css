@@ -61,17 +61,27 @@ nav ul li a:hover{
 
 .top-content{
     position: relative;
+        float: right;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
         justify-content: center;
         text-align: center;
         padding: 0 20px ;
         margin: 100px;
         font-family: cursive;
-     
-
+        margin-top: 15rem;
         
+        
+}
+
+#top{
+    position: relative;
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+    background-position: center;   
+    height: 100vh;
+    width: 100%;
 }
 
 .top-content p {
@@ -80,13 +90,16 @@ nav ul li a:hover{
 
 .color{
     color: #d97d27;
+    font-size: 50px;
+  
+   
 }
 
 .button{
     font-size: 20px;
     text-decoration: none;
-    color: #d97d27;
-    border: #d97d27 2px solid;
+    color: #000;
+    border: #d97d27 5px solid;
     padding: 10px 20px;
     border-radius: 10px;
     margin: 2.5rem;
@@ -95,6 +108,9 @@ nav ul li a:hover{
    
 }
 
+.button:hover{
+    background-color: #d97d27;
+}
 
 
 .about div{
@@ -106,13 +122,96 @@ nav ul li a:hover{
  .about {
 
 display: flex;
+
+ }
+ .about :hover{
+     background-color: #636261;
  }
 
 
  .my-img{
      flex: 1
  }
- 
+
  .about-content{
      flex: 2;
  }
+
+ .my-img img{
+    border-radius: 50%;
+    width: 70%
+ }
+ 
+
+ .about-content h2{
+
+    color: #d97d27;
+    font-family: cursive;
+    font-size: 40px;
+    
+ }
+
+.about-content p{
+
+font-size: x-large;
+}
+
+
+.skills{
+
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.skills .html img{
+    width: 100%;
+}
+
+.skills h2{
+    color: #d97d27;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+
+.projects{
+
+    margin-top: 5.5rem;
+}
+
+
+.projects h2{
+
+    color: #d97d27;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.netflix img{
+
+    width:50%;
+}
+
+
+.church img{
+    width: 50%;
+}
+
+.project-box{
+    padding: 10px;
+   
+}
+
+.project-box{
+    display: flex;
+}
+
