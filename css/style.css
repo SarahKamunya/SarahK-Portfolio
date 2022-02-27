@@ -185,6 +185,7 @@ font-size: x-large;
 .projects{
 
     margin-top: 5.5rem;
+
 }
 
 
@@ -194,16 +195,17 @@ font-size: x-large;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
+    font-family: cursive;
 }
 
 .netflix img{
 
-    width:50%;
+    width:70%;
 }
 
 
 .church img{
-    width: 50%;
+    width: 70%;
 }
 
 .project-box{
@@ -213,5 +215,51 @@ font-size: x-large;
 
 .project-box{
     display: flex;
+    
 }
 
+.contacts{
+
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+  background-color: lightgray;
+}
+
+.contacts img{
+
+width: 80%;
+}
+
+.contacts h2{
+    color: #d97d27;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+h3{
+    color: #d97d27;
+    
+}
+
+ol li a {
+    position: relative;
+    box-sizing :border-box;
+    background: transparent;
+    border: #c7c9c8;
+    text-decoration: none;
+    color: #d97d27;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.project-box :hover{
+    background-color: lightgray;
+}
