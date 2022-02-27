@@ -24,3 +24,37 @@ nav ul{
    
 }
 
+nav .logo{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+}
+
+
+
+nav ul li a {
+
+    line-height: 80px;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    font-family: cursive;
+    
+
+}
+
+nav ul li a.current{
+    background: #c7c9c8 ;
+    border-radius: 6px;
+}
+
+nav ul li a:hover{
+
+    background: #c7c9c8;
+    border-radius: 6px;
+}
+
