@@ -1,7 +1,9 @@
+# Name
 SarahK- Portfolio
-Date : 27 February 2022
+# Date
+ 27 February 2022
 
-Description
+# Description
 This is my portfolio landing page where I share about myself and projects done. 
 
 ## Setup/Installation Requirements
@@ -15,4 +17,4 @@ The project uses mainly HTML 5 and CSS.
 Contact via gmail : sarahkamunya15@gmail.com
 ### License
 
-Copyright (c) 2022 Sarah Kamunya
+ (c) 2022 Sarah Kamunya
