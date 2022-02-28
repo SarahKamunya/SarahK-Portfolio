@@ -6,6 +6,8 @@ SarahK- Portfolio
 # Description
 This is my portfolio landing page where I share about myself and projects done. 
 
+![landing page](https://github.com/SarahKamunya/SarahK-Portfolio/blob/master/image/landing.png)
+
  ## Setup/Installation Requirements
  To access it you will need
 *Code Editor
