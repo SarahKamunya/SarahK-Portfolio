@@ -6,10 +6,7 @@ SarahK- Portfolio
 # Description
 This is my portfolio landing page where I share about myself and projects done. 
 
-![](images/landing.png) 
-
-
-## Setup/Installation Requirements
+ ## Setup/Installation Requirements
  To access it you will need
 *Code Editor
 *Git Hub account to clone it or get the source code
